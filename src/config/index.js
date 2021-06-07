@@ -9,6 +9,11 @@ const config = {
   dbName: process.env.MONGO_DB_NAME,
   dbPort: process.env.MONGO_PORT,
   dbConnection: process.env.MONGO_CONNECTION,
+  publicRoute: '/app',
+  productImageRoute: 'product',
+  categoryImageRoute: 'category',
+  host: process.env.HOST || 'http://localhost',
+  
 };
 
 module.exports = { config };
